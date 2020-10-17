@@ -1,0 +1,18 @@
+.card-list{
+    width:85vw;
+    margin:0 auto;
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    grid-gap:20px;
+}
+.not-found{
+    color:#8DC7BE;
+    margin-top: 5rem;
+    text-transform: capitalize;
+}
+@media (max-width:800px){
+    .card-list{
+        grid-template-columns:repeat(auto-fill,15rem);
+        justify-content: center;
+    }
+}

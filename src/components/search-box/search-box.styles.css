@@ -1,0 +1,16 @@
+.search{
+    border:none;
+    outline: none;
+    padding: .5rem;
+    width: 35%;
+    line-height: 1.5rem;
+    margin: 2rem 0;
+    font-family: inherit;
+    border-bottom: 1px solid #8DC7BE;
+    background: transparent;
+    color:#C7BA8D;
+    font-size:1.3rem;
+}
+.search:focus{
+    color:white
+}
